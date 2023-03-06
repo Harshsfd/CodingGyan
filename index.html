@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Coding GY@N</title>
+</head>
+
+<body>
+    
+    <!---Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Coding Gy <mark>@</mark> n</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#icon-grid">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#F" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Course
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#a">C</a></li>
+                            <li><a class="dropdown-item" href="#b">C++</a></li>
+                            <li><a class="dropdown-item" href="#c">Java</a></li>
+                            <li><a class="dropdown-item" href="#d">PHP</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#e">Write for us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="first.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light text-uppercase">Welcome To Our Website</h1>
+                    <p class="text-light">This Website Is Make For Fun And Enjoy With Coding</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Login
+                    </button>
+
+                    <!--  login Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row mb-3">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="inputEmail3">
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="inputPassword3">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-outline-primary">Login</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sign Up
+                    </button>
+
+                    <!-- Signup Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Sign Up</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                                            <label for="floatingInput">Name</label>
+                                          </div>
+                                          <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingemail" placeholder="abc@gmail.com">
+                                            <label for="floatingPassword">Email</label>
+                                          </div>
+                                          <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingpassword" placeholder="password">
+                                            <label for="floatingPassword">Password</label>
+                                          </div>
+                                          <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingrepeartpassword"
+                                                placeholder="password">
+                                            <label for="floatingPassword">Repeat Password</label>
+                                        </div>
+                                          <div class="form-check">
+                                            <label class="form-check-label">
+                                              <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                                              Remember me
+                                            </label>
+                                          </div>
+                                          <p>By creating an account you agree to our <a href="#">Terms &Privacy</a></p>
+                                        <button type="submit" class="btn btn-danger">Sign Up</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="second.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-dark text-uppercase">Courses</h1>
+                    <p class="text-black">Many Courses Is Help To Learn Coding</p>
+                    <button class="btn btn-primary"><a class="text-light text-decoration-none" href="#a">C</a></button>
+                    <button class="btn btn-success"><a class="text-light text-decoration-none"
+                            href="#b">C++</a></button>
+                    <button class="btn btn-danger"><a class="text-light text-decoration-none"
+                            href="#c">JAVA</a></button>
+                    <button class="btn btn-secondary"><a class="text-light text-decoration-none"
+                            href="#d">PHP</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="third.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light text-uppercase ">Apply to Certificates</h1>
+                    <p class="text-light">Free Courses And Free Certificate</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        Certificate
+                    </button>
+
+                    <!-- Certificate Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark" id="exampleModalLabel1">Certificate</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput1"
+                                                placeholder="Name">
+                                            <label for="floatingInput">Name</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="floatingemail1"
+                                                placeholder="abc@gmail.com">
+                                            <label for="floatingPassword">Email</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control" id="floatingpassword1"
+                                                placeholder="password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <button type="button" class="btn btn-outline-danger">Apply To</button>
+                                            <button type="button" class="btn btn-outline-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <span class="visually-hidden">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                              <li><a class="dropdown-item" href="#">C</a></li>
+                                              <li><a class="dropdown-item" href="#">C++</a></li>
+                                              <li><a class="dropdown-item" href="#">JAVA</a></li>
+                                              <li><a class="dropdown-item" href="#">PHP</a></li>
+                                            </ul>
+                                            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                                          </div>
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control mb-3" id="floatingmessage1"
+                                                placeholder="Your Message">
+                                            <label for="floatingmessage">Your Message</label>
+                                        </div>
+                                        <p>By creating an account you agree to our <a href="#">Terms &Privacy</a></p>
+                                        <button type="submit" class="btn btn-outline-success">Done</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row my-4">
+            <div class="col-lg-4 text-center">
+                <img src="https://source.unsplash.com/1400x400/?website"
+                    class="d-block w-100 bd-placeholder-img rounded-circle" width="140" height="140" alt="...">
+
+                <h2 class="text-dark">Web Development</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <p><a class="btn btn-dark" href="#">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 text-center">
+                <img src="https://source.unsplash.com/1400x400/?kali linux"
+                    class="d-block w-100 bd-placeholder-img rounded-circle" width="140" height="140" alt="...">
+
+                <h2 class="text-danger">Cyber Security</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <p><a class="btn btn-danger" href="#">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 text-center">
+                <img src="https://source.unsplash.com/1400x400/?software"
+                    class="d-block w-100 bd-placeholder-img rounded-circle" width="140" height="140" alt="...">
+
+                <h2 class="text-primary">It & Software</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+            </div>
+            <!-- /.col-lg-4 -->
+        </div>
+    </div>
+    <!-- /.row -->
+
+    
+    <!--Link with buttons-->
+    <div class="container" id="F">
+    <div class="container" id="a">
+        <h1 class="text-primary">#C</h1>
+        <p class="lead">C language Tutorial approach for beginners and professionals, helps you to understand the C
+            language tutorial easily. Our C tutorial explains each topic with programs.
+
+            The C Language is developed by Dennis Ritchie for creating system applications that directly interact with
+            the hardware devices such as drivers, kernels, etc.
+
+            C programming is considered as the base for other programming languages, that is why it is known as mother
+            language.
+            <br>
+            <br>
+            <b>It can be defined by the following ways:</b>
+        </p>
+        <br>
+        <ul>
+            <li>Mother language</li>
+            <li>System programming language</li>
+            <li>Procedure-oriented programming language</li>
+            <li>Structured programming language</li>
+            <li>Mid-level programming language</li>
+        </ul>
+        <br>
+        <button class="btn btn-primary"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+    </div>
+
+    <hr>
+
+    <div class="container" id="b">
+        <h1 class="text-success">#C++</h1>
+        <p class="lead">C++ tutorial provides basic and advanced concepts of C++. Our C++ tutorial is designed for
+            beginners and professionals.
+            <br>
+            C++ is an object-oriented programming language. It is an extension to C programming.
+            <br>
+            Our C++ tutorial includes all topics of C++ such as first example, control statements, objects and classes,
+            inheritance, constructor, destructor, this, static, polymorphism, abstraction, abstract class, interface,
+            namespace, encapsulation, arrays, strings, exception handling, File IO, etc.
+            <br>
+            <br>
+            <b>#What is C++</b>
+            <br>
+            C++ is a general purpose, case-sensitive, free-form programming language that supports object-oriented,
+            procedural and generic programming.
+            <br>
+
+            C++ is a middle-level language, as it encapsulates both high and low level language features.
+            <br>
+            <br>
+            <button class="btn btn-success"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="container" id="c">
+        <h1 class="text-danger">#JAVA</h1>
+        <p class="lead">Java Training
+            Our core Java programming tutorial is designed for students and working professionals. Java is an
+            object-oriented, class-based, concurrent, secured and general-purpose computer-programming language. It is a
+            widely used robust technology.
+            <br>
+            <br>
+            <b>#What is Java?</b>
+            <br>
+            <br>
+            Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure
+            programming language.
+            <br>
+            Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James
+            Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered
+            company, so James Gosling and his team changed the name from Oak to Java.
+            <br>
+            Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java
+            has a runtime environment (JRE) and API, it is called a platform.
+            <br>
+            <br>
+            <button class="btn btn-danger"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="container" id="d">
+        <h1 class="text-secondary">#PHP</h1>
+        <p class="lead">PHP tutorial for beginners and professionals provides in-depth knowledge of PHP scripting
+            language. Our PHP tutorial will help you to learn PHP scripting language easily.
+            <br>
+            This PHP tutorial covers all the topics of PHP such as introduction, control statements, functions, array,
+            string, file handling, form handling, regular expression, date and time, object-oriented programming in PHP,
+            math, PHP MySQL, PHP with Ajax, PHP with jQuery and PHP with XML.
+            <br>
+            <br>
+            <b>#What is PHP</b>
+            <br>
+            <br>
+            PHP is an open-source, interpreted, and object-oriented scripting language that can be executed at the
+            server-side. PHP is well suited for web development. Therefore, it is used to develop web applications (an
+            application that executes on the server and generates the dynamic page.).
+            <br>
+            PHP was created by Rasmus Lerdorf in <b>1994</b> but appeared in the market in <b>1995</b>. PHP 7.4.0 is the
+            latest version of PHP, which was released on 28 November.
+            <br>
+            <br>
+            <button class="btn btn-secondary"><a class="text-decoration-none text-white" href="#">Read More</a></button>
+        </p>
+    </div>
+    </div>
+
+    <hr>
+
+    <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom text-lg-start">About Us</h2>
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                    really intended to be actually read, simply here to give you a better view of what this would
+                    look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src="https://source.unsplash.com/1600x900/?tech" alt="">
+            </div>
+        </div>
+
+
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                    how this layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src="https://source.unsplash.com/1600x900/?nature" alt="">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
+                    really intended to be actually read, simply here to give you a better view of what this would
+                    look like with some actual content. Your content.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                    height="500" src="https://source.unsplash.com/1600x900/?code" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h2>Write For Us</h2>
+        <textarea class="form-control form-control-color-black w-50" id="e" rows="1"></textarea>
+    </div>
+
+
+    <!--Footer-->
+    <div class="b-example-divider"></div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <!--<a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>-->
+                <span class="text-muted">&copy; 2021 Coding Fun, Inc</span>
+            </div>
+
+            <!--<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>-->
+            <button class="btn btn-dark"><a class="text-decoration-none text-light" href="#">Back to
+                    top</a></button>
+        </footer>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
