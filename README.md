@@ -1,4 +1,3 @@
 # CodingGyan
-E-Learning Front-End Website Using HTML
-, CSS only 
-Project Link :- https://harshsfd.github.io/CodingGyan
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/CodingGyan)
